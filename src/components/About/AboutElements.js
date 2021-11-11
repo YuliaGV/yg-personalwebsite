@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin-top: -5rem;
-  margin-bottom: 5rem;
+  margin-top: 0;
+
+  @media (min-width: 768px) {
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+  }
+
+
+
 `;
 
 export const Image = styled.img`
