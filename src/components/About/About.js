@@ -42,11 +42,11 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            ¡Hola! Mi nombre es <strong>Yuliana Gaviria,</strong> soy aprendiz ADSI del SENA con etapa lectiva finalizada 
-            y tripulante de la Misión TIC 2021, actualmente en el ciclo 4. Estoy en búsqueda de oportunidades que me permitan crecer profesionalmente en el sector tecnológico
+            ¡Hola! Mi nombre es <strong>Yuliana Gaviria,</strong> soy aprendiz ADSI en etapa práctica y egresada de
+             Misión TIC 2021 en la Universidad de Antioquia.
           </div>
           <div className="AboutBio tagline2">
-            Constantemente estoy aprendiendo nuevas tecnologías y aplicándolas en diferentes proyectos
+            ¿Una palabra para definirme? Curiosa, siempre busco aprender nuevas cosas y aprovecharlas. A continuación algunas de esas 'cosas': 
           </div>
           <Technologies>
             {stackList.map((stack, index) => (
